@@ -11,7 +11,7 @@ public class TestMethodOverloading {
       return (n1+n2+n3)/3;
    }
 
-    public static double average(int n1, int n2, int n3, int n4) {  
+    public static double average(double n1, double n2, double n3, double n4) {  
       return (n1+n2+n3+n4)/4;
    }
 
@@ -20,6 +20,6 @@ public class TestMethodOverloading {
       System.out.println(average(1.0, 2.0)); 
       System.out.println(average(1, 2, 3)); 
       System.out.println(average(1.0, 2));   
-      System.out.println(average(1, 2, 3, 4));   
+      System.out.println(average(1, 2.0, 3, 4));   
    } 
 }
