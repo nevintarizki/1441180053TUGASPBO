@@ -1,0 +1,13 @@
+public class Mobil extends Kendaraan{
+ 	private int kecepatanMaks;
+ 	private int jumlahRoda;
+ }	
+ 	
+
+ public void cetakSpesifikasi(){
+ 	System.out.println("Kecepatan Maksimal Kendaraan : ");
+ 	System.out.println("Kecepatan Maksimal Mobil : ");
+ 	System.out.println("Berat Mobil : ");
+ 	System.out.println("Kapasitas Mobil : ");
+ 	System.out.println("Jumlah Roda Mobil : ");
+ }
