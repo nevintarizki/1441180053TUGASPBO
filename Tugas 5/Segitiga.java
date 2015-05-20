@@ -1,7 +1,7 @@
 public class Segitiga{
-	int alas;
-	int tinggi;
-	int miring;
+	double alas;
+	double tinggi;
+	double miring;
 
 	public void cetakKeLayar(){
 		System.out.println("Alas= "+alas);
@@ -9,20 +9,20 @@ public class Segitiga{
 		System.out.println("Sisi Miring= "+miring);
 	}
 
-	public void ubahProperty(int alasBaru, int tinggiBaru, int miringBaru){
+	public void ubahProperty(double alasBaru, double tinggiBaru, double miringBaru){
 		alas = alasBaru;
 		tinggi = tinggiBaru;
 		miring = miringBaru;
 	}
 
-	public int hitungLuas(){
-		int luas;
+	public double hitungLuas(){
+		double luas;
 		luas = alas * tinggi;
 		return luas;
 	}
 
-	public int hitungKeliling(){
-		int keliling;
+	public double hitungKeliling(){
+		double keliling;
 		keliling = alas + miring + miring;
 		return keliling;
 	}
