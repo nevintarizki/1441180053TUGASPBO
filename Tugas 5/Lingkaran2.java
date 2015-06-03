@@ -9,7 +9,7 @@ class Lingkaran2 {
 	}	
 
 	public void property_lingkaran(){
-		System.out.println("Phi       : "+this.phi);
+		System.out.println("Phi       : "+this.phi);n
 		System.out.println("Jari-Jari : "+this.jari);
 	}
 
