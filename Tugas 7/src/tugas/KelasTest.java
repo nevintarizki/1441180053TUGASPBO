@@ -9,6 +9,6 @@ public class KelasTest {
         Elpiji dua = new Elpiji("12kg","Propana","Biru","Besar");
 
         KomporGas oke = new KomporGas("2 tungku","sedang","2kg","quantum");
-        System.out.println(oke.getMerk());
+        System.out.println(oke.toString());
     }
 }
