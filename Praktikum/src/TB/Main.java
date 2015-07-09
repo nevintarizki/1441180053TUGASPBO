@@ -10,8 +10,8 @@ public class Main {
         ArrayList<Liga> daftarLiga= new ArrayList<Liga>();
 
         Liga Inggris = new Liga("Inggris");
-        Divisi divisi1 = new Divisi("Premier League");
-        Divisi divisi2 = new Divisi("One League");
+        Divisi divisi1 = new Divisi("Premier");
+        Divisi divisi2 = new Divisi("One");
         Klub klub1 = new Klub("Chelsea");
         Klub klub2 = new Klub("Manchaster United");
         Klub klub3 = new Klub("Manchaster City");
@@ -43,7 +43,7 @@ public class Main {
 
         // 3
         System.out.println("Soal Nomor 3");
-        System.out.println("Daftar klub pada divisi Premier League adalah :" + Inggris.getDaftarKlubDivisi("Premier League"));
+        System.out.println("Daftar klub pada divisi Premier adalah :" + Inggris.getDaftarKlubDivisi("Premier"));
 
         // 4
         System.out.println("Soal Nomor 4");
@@ -53,7 +53,6 @@ public class Main {
         // 5
         System.out.println("Soal Nomor 5");
         System.out.println(klub1.getNamaLiga(daftarLiga,"Arsenal"));
-
 
 
 

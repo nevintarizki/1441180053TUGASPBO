@@ -1,6 +1,5 @@
 package TB;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 /**
  * Created by Nevinta on 30/06/2015.
@@ -51,6 +50,23 @@ public class Liga {
         }
 
     }
+
+    //Soal 3
+    public String getDaftarKlubDivisi(String namadivisi){
+        String klub = "Silahkan coba lagi!!";
+        for(int d=0;d<DaftarDivisi.size();d++){
+            Divisi divisi = DaftarDivisi.get(d);
+            if(divisi.getNamaDivisi().equals(namadivisi)){
+                klub="\n";
+                ArrayList<String> listklub = divisi.getDaftarKlubDivisi();
+                for(int e=0;e<listklub.size();e++){
+                    klub = klub + listklub.get(e) +"\n";
+                }
+            }
+        }
+        return klub;
+    }
+
     //Soal 4
     public String getNamaKlub(String klub){
         String namadivisi="Silahkan coba lagi!!";
@@ -78,20 +94,6 @@ public class Liga {
         return namadivisi;
     }
 
-    public String getDaftarKlubDivisi(String namadivisi){
-        String klub = "Silahkan coba lagi!!";
-        for(int d=0;d<DaftarDivisi.size();d++){
-            Divisi divisi = DaftarDivisi.get(d);
-            if(divisi.getNamaDivisi().equals(namadivisi)){
-                klub="\n";
-                ArrayList<String> listklub = divisi.getDaftarKlubDivisi();
-                for(int e=0;e<listklub.size();e++){
-                      klub = klub + listklub.get(e) +"\n";
-                }
-            }
-        }
-        return klub;
-    }
 
 
     @Override

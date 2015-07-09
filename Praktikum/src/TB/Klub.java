@@ -25,7 +25,7 @@ public class Klub {
     public String getNamaLiga(ArrayList<Liga> daftarLiga,String klub){
         String namaliga="Silahkan coba lagi!!";
 
-        // looping untuk mengambil data tiap divisi
+        // Soal 5
         for(int d=0;d<daftarLiga.size();d++){
             Liga liga = daftarLiga.get(d);
             if(liga.getNamaKlub(klub).equals(namaliga)){
